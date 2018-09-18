@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <TextView
+
+        android:id="@+id/kAddress"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+
+        android:text="Address:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+
+        android:id="@+id/kcoordinates"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp"
+
+
+        android:text="Coordinates:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+
+        android:id="@+id/kenginetype"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="150dp"
+        android:text="EngineType:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+
+        android:id="@+id/kexterior"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="200dp"
+        android:text="Exterior:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+
+        android:id="@+id/kfuel"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="250dp"
+        android:text="Fuel:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+
+        android:id="@+id/kname"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="300dp"
+        android:text="Name:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+
+        android:id="@+id/kinterior"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="350dp"
+        android:text="Interior:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+
+        android:id="@+id/kvin"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="400dp"
+        android:text="Vin:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
+    <TextView
+
+        android:id="@+id/Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignTop="@+id/kAddress"
+        android:layout_toRightOf="@+id/kAddress"
+
+
+        android:text="Address"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+
+        android:id="@+id/coordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignTop="@+id/kcoordinates"
+        android:layout_toRightOf="@+id/kcoordinates"
+        android:text="Coordinates"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+
+        android:id="@+id/enginetype"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@+id/kenginetype"
+        android:layout_toRightOf="@+id/kenginetype"
+
+        android:text="EngineType"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+
+        android:id="@+id/exterior"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignTop="@+id/kexterior"
+        android:layout_toRightOf="@+id/kexterior"
+        android:text="Exterior"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+
+        android:id="@+id/fuel"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@+id/kfuel"
+        android:layout_toRightOf="@+id/kfuel"
+        android:text="Fuel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+
+        android:id="@+id/name"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@+id/kname"
+        android:layout_toRightOf="@+id/kname"
+        android:text="Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+
+        android:id="@+id/interior"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignTop="@+id/kinterior"
+        android:layout_toRightOf="@+id/kinterior"
+        android:text="Interior"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+
+        android:id="@+id/vin"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignTop="@+id/kvin"
+        android:layout_toRightOf="@+id/kvin"
+        android:text="Vin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+</RelativeLayout>
